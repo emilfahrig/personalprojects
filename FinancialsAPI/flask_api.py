@@ -4,7 +4,7 @@ from flask_restful import Api
 
 my_db = mysql.connector.connect(
     host='localhost',
-    user='root',
+    user= ,
     password= ,
     database='financials'
 )
