@@ -5,7 +5,7 @@ from flask_restful import Api
 my_db = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='EmilEmil#1',
+    password= ,
     database='financials'
 )
 
