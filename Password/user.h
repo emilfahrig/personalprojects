@@ -74,38 +74,6 @@ class User {
         //postconditions: the node of existing linked list that has been passed
         //into this function is appended to the linked list this function is
         //called upon
-        //void display();
-        //description: this function displays the movie title and id to the
-        //console of every node stored in the linked list
-        //preconditions: nodes must have been stores in a linked list for
-        //this function to be able to print data to the console
-        //postconditions: this will have no effect on any member variables in
-        //the class
-        //bool searchDelete(long key);
-        //description: this function searches for a node which stores the given
-        //key and deletes said node from the linked list
-        //preconditions: nodes must have been stores in a linked list and a node
-        //must exist in the list that stores the passed in key for this function
-        //to delete a node from the linked list
-        //postconditions: assuming there exist a node in the linked list that
-        //stores the passed in key, that node will have been deleted from the
-        //linked list
-        //void displayMovie(long key);
-        //description: this function displays information (title, genre, content
-        //rating, tagline, director, year and id) to the console stored in the
-        //node that holds the passed in key
-        //preconditions: nodes must have been stores in a linked list and a node
-        //must exist in the list that stores the passed in key for this function
-        //to display the contents of a movie
-        //postconditions: this will have no effect on any member variables in
-        //the class
-        //bool printGenre(string inputGenre);
-        //description: this function print all movie titles and  id's of the
-        //nodes which store the passed in genre
-        //preconditions: nodes have been stored in the linked list that hold
-        //the passed in genre, or else this funciton won't print anything
-        //postconditions: this will have no effect on any member variables in
-        //the class
         void rehashNodes(User* newPlaylist, int tableSize);
         //description: this function copies all nodes stored in the existing
         //hash table into the newly created hash table based on the new hash
@@ -115,7 +83,6 @@ class User {
         //postcontions: the newly created hash table will store all the nodes
         //of the old hash table in the correct indicies
         bool checkAlreadyCreated(int encryption1, int encryption2);
-        //int getVal();
         QString getFirstName_LL(int key_input);
         QString getLastName_LL(int key_input);
         QString getUsername_LL(int key_input);
